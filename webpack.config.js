@@ -89,6 +89,7 @@ const config = {
             "windows.jQuery": "jquery",
         }),
         new CopyWebpackPlugin([
+            './CNAME',
             {
                 from: "./public",
                 to: "public",
