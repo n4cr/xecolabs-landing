@@ -1,7 +1,11 @@
+// custom variables
 @import 'variables';
-
-@import '../../node_modules/bootstrap/scss/bootstrap';
-
-// @import 'bootswatch';
-
-@import 'custom.scss';
+// bootstrap scss
+//@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap-material-design/scss/bootstrap-material-design';
+// font-awesome scss
+$fa-font-path: "~font-awesome/fonts";
+@import '~font-awesome/scss/font-awesome';
+// custom scss
+@import 'typography';
+@import 'custom';

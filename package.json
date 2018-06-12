@@ -18,6 +18,8 @@
   },
   "dependencies": {
     "bootstrap": "^4.1.1",
+    "bootstrap-material-design": "^4.1.1",
+    "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.3"
   },
@@ -39,6 +41,7 @@
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-react": "^7.9.1",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
     "gh-pages": "^1.2.0",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.0.7",
